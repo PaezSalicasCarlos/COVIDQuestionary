@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuestionario">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="150dp"
+        android:foregroundTint="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/estilo_borde"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/cuestionario"
+            android:textAlignment="viewStart"
+            android:textColor="#1C00D5"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/estilo2_borde"
+        android:orientation="vertical"
+        android:paddingLeft="5dp "
+        android:paddingRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta1"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/rbPreg1RtaSi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaSi" />
+
+            <RadioButton
+                android:id="@+id/rbPreg1RtaNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaNo" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/estilo_borde"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta2"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbPreg2RtaSi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaSi" />
+
+            <RadioButton
+                android:id="@+id/rbPreg2RtaNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaNo" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/estilo2_borde"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta3"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbPreg3RtaSi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaSi" />
+
+            <RadioButton
+                android:id="@+id/rbPreg3RtaNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaNo" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/estilo_borde"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta4"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbPreg4RtaSi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaSi" />
+
+            <RadioButton
+                android:id="@+id/rbPreg4RtaNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rtaNo" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/estilo3_borde"
+        android:text="@string/BtnSiguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <Button
+        android:id="@+id/btEvaluar"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/estilo3_borde"
+        android:text="@string/BtnEvaluarRespuestas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSiguiente"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

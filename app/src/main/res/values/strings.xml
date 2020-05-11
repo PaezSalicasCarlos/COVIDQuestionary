@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">COVIDQuestionary</string>
+    <string name="bienvenido">BIENVENIDO A COVIDQ</string>
+    <string name="txtview1">Ingrese sus datos:</string>
+    <string name="boton1">REALIZAR CUESTIONARIO</string>
+    <string name="nombre">NOMBRE:</string>
+    <string name="nombre1">Nombre</string>
+    <string name="edad">EDAD:</string>
+    <string name="edad1">Edad</string>
+    <string name="cuestionario">CUESTIONARIO</string>
+    <string name="pregunta1">Ha tenido contacto con alguna persona que haya regresado desde el exterior del País?</string>
+    <string name="pregunta2">Ha tenido fiebre mayor a 38°?</string>
+    <string name="pregunta3">Ha tenido tos seca?</string>
+    <string name="pregunta4">Ha tenido alguna dificultad para respirar?</string>
+    <string name="rtaSi">SI</string>
+    <string name="rtaNo">NO</string>
+    <string name="BtnSiguiente">SIGUIENTE</string>
+    <string name="BtnEvaluarRespuestas">EVALUAR</string>
+
+    <string name="resultados">RESULTADO</string>
+    <string name="informe">INFORME</string>
+    <string name="btnReintentar">DE NUEVO</string>
+    <string name="btnFIN">SALIR</string>
+</resources>
